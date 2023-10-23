@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2023 bruno-cafeina
+Copyright (c) 2023 DanielSantanamarcondes
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,30 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+
+
+
+
+
+
+
+        while() {
+        }
+       
+        while (contador <8){    
+        }  
+
+        while (contador <9){    
+            listaDeTeclado[0].onclick = tocaSomPom;
+            contador = contador + 1;
+
+            console.log(contador) ;
+        } 
+        listaDeTeclado[contador].onclick = tocaSomPom; 
+
+        while(contador <listaDeTeclas.length) {
+            listaDeTeclas[contador].onclick = tocaSomPom;
+            contador = contador + 1;
+        }
