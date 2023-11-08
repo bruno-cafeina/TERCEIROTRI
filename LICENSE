@@ -19,30 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
-
-
-
-
-
-
-
-        while() {
-        }
-       
-        while (contador <8){    
-        }  
-
-        while (contador <9){    
-            listaDeTeclado[0].onclick = tocaSomPom;
-            contador = contador + 1;
-
-            console.log(contador) ;
-        } 
-        listaDeTeclado[contador].onclick = tocaSomPom; 
-
-        while(contador <listaDeTeclas.length) {
-            listaDeTeclas[contador].onclick = tocaSomPom;
-            contador = contador + 1;
-        }
